@@ -22,7 +22,7 @@ For the lab you will need to use the below JSON payload as the input into the La
 
 For the simulation of the car, we will deploy the below CloudFormation template which will give you an EC2 instance with Greengrass installed and a Cloud9 interface.
 
-![cfn](cfn-gg-vehicle.json)
+[CloudFormation Greengrass Template](/cfn-gg-vehicle.json)
 
 ### Remote Command Audit table.
 Create a new DynamoDB table called **vehicleCommandAuditTable** with a Primary Key called **vin** type **string** and a sort key called **exe_id** type String.
